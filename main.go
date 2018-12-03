@@ -29,7 +29,7 @@ func main() {
 		// WriteTimeout: 10 * time.Second,
 	}
 
-	fmt.Println("Ici le log")
+	fmt.Println("Ici le log qui ne s'affiche pas lol")
 	fmt.Println("Server is running at", port)
 
 	log.Fatal(server.ListenAndServe())
