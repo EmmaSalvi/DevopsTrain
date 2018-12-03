@@ -28,7 +28,7 @@ On crée nos deux app
 On crée la pipeline
 
 On link Heroku/GitHub
-heroku git:remote -a app-pee-s
+heroku git:remote -a nom-de-l'app-staging
 git add .
 git status
 git commit -am "first commit"
